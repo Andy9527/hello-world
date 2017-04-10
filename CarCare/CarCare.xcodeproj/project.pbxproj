@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8C07E81E8E418E0013B365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C07E71E8E418E0013B365 /* AppDelegate.swift */; };
+		9B8C07ED1E8E418E0013B365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C07EB1E8E418E0013B365 /* Main.storyboard */; };
+		9B8C07F01E8E418E0013B365 /* CarCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C07EE1E8E418E0013B365 /* CarCare.xcdatamodeld */; };
+		9B8C07F21E8E418E0013B365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C07F11E8E418E0013B365 /* Assets.xcassets */; };
+		9B8C07F51E8E418E0013B365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C07F31E8E418E0013B365 /* LaunchScreen.storyboard */; };
+		9B8C07FD1E8E432B0013B365 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C07FC1E8E432B0013B365 /* FirstViewController.swift */; };
+		9B8C07FF1E8E43370013B365 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C07FE1E8E43370013B365 /* SecondViewController.swift */; };
+		9B8C08011E8E43430013B365 /* RcordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C08001E8E43430013B365 /* RcordViewController.swift */; };
+		9B8C08031E8E43510013B365 /* WarrantyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C08021E8E43510013B365 /* WarrantyViewController.swift */; };
+		9B8C08081E92A8490013B365 /* photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C08061E92A8490013B365 /* photos@2x.png */; };
+		9B8C08091E92A8490013B365 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C08071E92A8490013B365 /* camera@2x.png */; };
+		9B8C080B1E92A84E0013B365 /* QBoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C080A1E92A84E0013B365 /* QBoy.png */; };
+		9B8C080D1E92BFCA0013B365 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C080C1E92BFCA0013B365 /* ThirdViewController.swift */; };
+		9B8C081B1E93C7820013B365 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C081A1E93C7820013B365 /* save.png */; };
+		9B8C081D1E93C7940013B365 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C081C1E93C7940013B365 /* add.png */; };
+		9B8C08251E940BFB0013B365 /* oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C08221E940BFB0013B365 /* oil.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B8C07E41E8E418E0013B365 /* CarCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8C07E71E8E418E0013B365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B8C07EC1E8E418E0013B365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B8C07EF1E8E418E0013B365 /* CarCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarCare.xcdatamodel; sourceTree = "<group>"; };
+		9B8C07F11E8E418E0013B365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B8C07F41E8E418E0013B365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B8C07F61E8E418E0013B365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8C07FC1E8E432B0013B365 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9B8C07FE1E8E43370013B365 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9B8C08001E8E43430013B365 /* RcordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RcordViewController.swift; sourceTree = "<group>"; };
+		9B8C08021E8E43510013B365 /* WarrantyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarrantyViewController.swift; sourceTree = "<group>"; };
+		9B8C08061E92A8490013B365 /* photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photos@2x.png"; path = "CarCare/photos@2x.png"; sourceTree = "<group>"; };
+		9B8C08071E92A8490013B365 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera@2x.png"; path = "CarCare/camera@2x.png"; sourceTree = "<group>"; };
+		9B8C080A1E92A84E0013B365 /* QBoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QBoy.png; path = CarCare/QBoy.png; sourceTree = "<group>"; };
+		9B8C080C1E92BFCA0013B365 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9B8C081A1E93C7820013B365 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = save.png; path = CarCare/save.png; sourceTree = "<group>"; };
+		9B8C081C1E93C7940013B365 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = CarCare/add.png; sourceTree = "<group>"; };
+		9B8C08221E940BFB0013B365 /* oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oil.png; path = CarCare/oil.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8C07E11E8E418E0013B365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B8C07DB1E8E418D0013B365 = {
+			isa = PBXGroup;
+			children = (
+				9B8C082A1E940CB10013B365 /* image */,
+				9B8C07E61E8E418E0013B365 /* CarCare */,
+				9B8C07E51E8E418E0013B365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8C07E51E8E418E0013B365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C07E41E8E418E0013B365 /* CarCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8C07E61E8E418E0013B365 /* CarCare */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C07E71E8E418E0013B365 /* AppDelegate.swift */,
+				9B8C07EB1E8E418E0013B365 /* Main.storyboard */,
+				9B8C07F11E8E418E0013B365 /* Assets.xcassets */,
+				9B8C07F31E8E418E0013B365 /* LaunchScreen.storyboard */,
+				9B8C07F61E8E418E0013B365 /* Info.plist */,
+				9B8C07EE1E8E418E0013B365 /* CarCare.xcdatamodeld */,
+				9B8C07FC1E8E432B0013B365 /* FirstViewController.swift */,
+				9B8C07FE1E8E43370013B365 /* SecondViewController.swift */,
+				9B8C08001E8E43430013B365 /* RcordViewController.swift */,
+				9B8C08021E8E43510013B365 /* WarrantyViewController.swift */,
+				9B8C080C1E92BFCA0013B365 /* ThirdViewController.swift */,
+			);
+			path = CarCare;
+			sourceTree = "<group>";
+		};
+		9B8C082A1E940CB10013B365 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9B8C08221E940BFB0013B365 /* oil.png */,
+				9B8C081C1E93C7940013B365 /* add.png */,
+				9B8C081A1E93C7820013B365 /* save.png */,
+				9B8C080A1E92A84E0013B365 /* QBoy.png */,
+				9B8C08061E92A8490013B365 /* photos@2x.png */,
+				9B8C08071E92A8490013B365 /* camera@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8C07E31E8E418E0013B365 /* CarCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8C07F91E8E418E0013B365 /* Build configuration list for PBXNativeTarget "CarCare" */;
+			buildPhases = (
+				9B8C07E01E8E418E0013B365 /* Sources */,
+				9B8C07E11E8E418E0013B365 /* Frameworks */,
+				9B8C07E21E8E418E0013B365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarCare;
+			productName = CarCare;
+			productReference = 9B8C07E41E8E418E0013B365 /* CarCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8C07DC1E8E418E0013B365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李佳駿";
+				TargetAttributes = {
+					9B8C07E31E8E418E0013B365 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DQ36S3V9F7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B8C07DF1E8E418E0013B365 /* Build configuration list for PBXProject "CarCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B8C07DB1E8E418D0013B365;
+			productRefGroup = 9B8C07E51E8E418E0013B365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8C07E31E8E418E0013B365 /* CarCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8C07E21E8E418E0013B365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8C080B1E92A84E0013B365 /* QBoy.png in Resources */,
+				9B8C07F51E8E418E0013B365 /* LaunchScreen.storyboard in Resources */,
+				9B8C08091E92A8490013B365 /* camera@2x.png in Resources */,
+				9B8C081D1E93C7940013B365 /* add.png in Resources */,
+				9B8C07F21E8E418E0013B365 /* Assets.xcassets in Resources */,
+				9B8C07ED1E8E418E0013B365 /* Main.storyboard in Resources */,
+				9B8C08251E940BFB0013B365 /* oil.png in Resources */,
+				9B8C081B1E93C7820013B365 /* save.png in Resources */,
+				9B8C08081E92A8490013B365 /* photos@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8C07E01E8E418E0013B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8C08031E8E43510013B365 /* WarrantyViewController.swift in Sources */,
+				9B8C07FF1E8E43370013B365 /* SecondViewController.swift in Sources */,
+				9B8C08011E8E43430013B365 /* RcordViewController.swift in Sources */,
+				9B8C080D1E92BFCA0013B365 /* ThirdViewController.swift in Sources */,
+				9B8C07FD1E8E432B0013B365 /* FirstViewController.swift in Sources */,
+				9B8C07F01E8E418E0013B365 /* CarCare.xcdatamodeld in Sources */,
+				9B8C07E81E8E418E0013B365 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B8C07EB1E8E418E0013B365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8C07EC1E8E418E0013B365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B8C07F31E8E418E0013B365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8C07F41E8E418E0013B365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B8C07F71E8E418E0013B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B8C07F81E8E418E0013B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B8C07FA1E8E418E0013B365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DQ36S3V9F7;
+				INFOPLIST_FILE = CarCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHIACHUNLI.CarCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B8C07FB1E8E418E0013B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DQ36S3V9F7;
+				INFOPLIST_FILE = CarCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CHIACHUNLI.CarCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8C07DF1E8E418E0013B365 /* Build configuration list for PBXProject "CarCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8C07F71E8E418E0013B365 /* Debug */,
+				9B8C07F81E8E418E0013B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8C07F91E8E418E0013B365 /* Build configuration list for PBXNativeTarget "CarCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8C07FA1E8E418E0013B365 /* Debug */,
+				9B8C07FB1E8E418E0013B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B8C07EE1E8E418E0013B365 /* CarCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B8C07EF1E8E418E0013B365 /* CarCare.xcdatamodel */,
+			);
+			currentVersion = 9B8C07EF1E8E418E0013B365 /* CarCare.xcdatamodel */;
+			path = CarCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B8C07DC1E8E418E0013B365 /* Project object */;
+}
